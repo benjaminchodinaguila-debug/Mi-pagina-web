@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Chodin Photography - Fotógrafo de Todo Terreno</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #333; color: white; padding: 20px; text-align: center; }
+        nav { margin-top: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #ffcc00; }
+        .hero { background: url('https://via.placeholder.com/1920x600?text=Hero+Image+Accion+Deportiva') no-repeat center center/cover; height: 600px; display: flex; align-items: center; justify-content: center; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); }
+        .hero h1 { font-size: 3em; }
+        section { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
+        .about, .services, .blog, .contact { background: white; margin-bottom: 20px; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .portfolio { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .portfolio-item { text-align: center; }
+        .portfolio-item img { width: 100%; height: auto; border-radius: 8px; object-fit: cover; }
+        .portfolio-item h3 { margin-top: 10px; }
+        form { display: flex; flex-direction: column; max-width: 600px; margin: 0 auto; }
+        form input, form textarea { margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+        form button { background: #333; color: white; padding: 10px; border: none; cursor: pointer; }
+        form button:hover { background: #ffcc00; color: #333; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2em; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benjamin Chodin Photography</h1>
+        <nav>
+            <a href="#home">Inicio</a>
+            <a href="#about">Sobre Mí</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#services">Servicios</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Capturando la Adrenalina en Todo Terreno</h1>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Benjamin Chodin, un fotógrafo profesional con más de 10 años de experiencia en fotografía deportiva de todo terreno. Ex-corredor de motocross convertido en capturador de momentos épicos, he cubierto eventos desde rallies en desiertos hasta partidos de baloncesto en arenas urbanas. Mi filosofía: "Cada foto cuenta una historia de superación". Uso equipo top como Canon EOS R5 con lentes telezoom para congelar la acción en cualquier entorno.</p>
+    </section>
+    
+    <section id="portfolio" class="portfolio">
+        <h2>Portafolio</h2>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+1" alt="Rally 1" data-real-src="URL_DE_LA_IMAGEN_1">
+            <h3>Rally en Acción</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+2" alt="Rally 2" data-real-src="URL_DE_LA_IMAGEN_2">
+            <h3>Curva Polvorienta</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+3" alt="Rally 3" data-real-src="URL_DE_LA_IMAGEN_3">
+            <h3>Aceleración en Pista</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+4" alt="Rally 4" data-real-src="URL_DE_LA_IMAGEN_4">
+            <h3>Competencia Intensa</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+5" alt="Rally 5" data-real-src="URL_DE_LA_IMAGEN_5">
+            <h3>Subida Empinada</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+6" alt="Rally 6" data-real-src="URL_DE_LA_IMAGEN_6">
+            <h3>Llegada Espectacular</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+7" alt="Rally 7" data-real-src="URL_DE_LA_IMAGEN_7">
+            <h3>Polvo y Velocidad</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+8" alt="Rally 8" data-real-src="URL_DE_LA_IMAGEN_8">
+            <h3>Meta Final</h3>
+        </div>
+        <!-- Reemplaza los placeholders con las URLs reales de las imágenes subidas -->
+    </section>
+    
+    <section id="services" class="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Cobertura de Eventos Deportivos: Desde $500 por día, incluyendo edición básica.</li>
+            <li>Sesiones Personalizadas para Atletas: Retratos y acción, $300 por sesión.</li>
+            <li>Impresiones y Ventas Digitales: Ediciones limitadas disponibles.</li>
+            <li>Integración de Video: Paquetes combinados para marcas.</li>
+        </ul>
+        <p>Técnicas: Uso ráfagas a 1/2000s para acción rápida; equipo weather-sealed para terrenos extremos.</p>
+    </section>
+    
+    <section id="blog" class="blog">
+        <h2>Blog y Tips</h2>
+        <article>
+            <h3>Cómo Capturar Movimiento en Rally</h3>
+            <p>Usa panning a 1/60s para efecto de velocidad. Tip: Enfoca en el piloto con AF continuo.</p>
+        </article>
+        <article>
+            <h3>Equipo Esencial para Fotografía Deportiva</h3>
+            <p>Lentes: 70-200mm f/2.8; Accesorios: Monopod para estabilidad en eventos largos.</p>
+        </article>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Benjamin Chodin Photography. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mensaje enviado! (Simulación)');
+        });
+
+        // Script para cargar imágenes reales (ajusta las URLs cuando subas las imágenes)
+        document.querySelectorAll('.portfolio-item img').forEach(img => {
+            const realSrc = img.getAttribute('data-real-src');
+            if (realSrc) img.src = realSrc;
+        });
+    </script>
+</body>
+</html>
