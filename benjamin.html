@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Chodin Photography - Fotógrafo de Todo Terreno</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light grey background */
+            color: #333; /* Dark grey text color */
+        }
+
+        header {
+            background-color: #333; /* Dark grey header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ddd; /* Light grey hover color */
+        }
+
+        .hero {
+            background: url('https://via.placeholder.com/1920x600?text=Hero+Image+Accion+Deportiva') no-repeat center center/cover;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+
+        .hero h1 {
+            font-size: 3em;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .about, .services, .blog, .contact {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            text-align: center;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .portfolio-item h3 {
+            margin-top: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc; /* Light grey border */
+            border-radius: 4px;
+        }
+
+        form button {
+            background: #333; /* Dark grey button */
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        form button:hover {
+            background: #555; /* Darker grey hover color */
+            color: #ddd;
+        }
+
+        footer {
+            background: #333; /* Dark grey footer */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Benjamin Chodin Photography</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#about">Sobre Mí</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#services">Servicios</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Capturando la Adrenalina en Todo Terreno</h1>
+    </div>
+
+    <section id="about" class="about">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Benjamin Chodin, un fotógrafo profesional con más de 10 años de experiencia en fotografía deportiva de todo terreno. Ex-corredor de motocross convertido en capturador de momentos épicos, he cubierto eventos desde rallies en desiertos hasta partidos de baloncesto en arenas urbanas.</p>
+        <p>Mi filosofía: "Cada foto cuenta una historia de superación".</p>
+        <p>Uso equipo top como Canon EOS R5 con lentes telezoom para congelar la acción en cualquier entorno.</p>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portafolio</h2>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Rally+en+Accion" alt="Rally en Acción" data-real-src="URL_DE_LA_IMAGEN_1">
+            <h3>Rally en Acción</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Curva+Polvorienta" alt="Curva Polvorienta" data-real-src="URL_DE_LA_IMAGEN_2">
+            <h3>Curva Polvorienta</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Aceleracion+en+Pista" alt="Aceleración en Pista" data-real-src="URL_DE_LA_IMAGEN_3">
+            <h3>Aceleración en Pista</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Competencia+Intensa" alt="Competencia Intensa" data-real-src="URL_DE_LA_IMAGEN_4">
+            <h3>Competencia Intensa</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Subida+Empinada" alt="Subida Empinada" data-real-src="URL_DE_LA_IMAGEN_5">
+            <h3>Subida Empinada</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Llegada+Espectacular" alt="Llegada Espectacular" data-real-src="URL_DE_LA_IMAGEN_6">
+            <h3>Llegada Espectacular</h3>
+        </div>
+         <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Polvo+y+Velocidad" alt="Polvo y Velocidad" data-real-src="URL_DE_LA_IMAGEN_7">
+            <h3>Polvo y Velocidad</h3>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200?text=Meta+Final" alt="Meta Final" data-real-src="URL_DE_LA_IMAGEN_8">
+            <h3>Meta Final</h3>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Servicios</h2>
+        <ul>
+            <li><b>Cobertura de Eventos Deportivos:</b> Desde $500 por día, incluyendo edición básica.</li>
+            <li><b>Sesiones Personalizadas para Atletas:</b> Retratos y acción, $300 por sesión.</li>
+            <li><b>Impresiones y Ventas Digitales:</b> Ediciones limitadas disponibles.</li>
+            <li><b>Integración de Video:</b> Paquetes combinados para marcas.</li>
+        </ul>
+        <p><b>Técnicas:</b> Uso ráfagas a 1/2000s para acción rápida; equipo weather-sealed para terrenos extremos.</p>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Blog y Tips</h2>
+        <h3>Cómo Capturar Movimiento en Rally</h3>
+        <p>Usa panning a 1/60s para efecto de velocidad. Tip: Enfoca en el piloto con AF continuo.</p>
+        <h3>Equipo Esencial para Fotografía Deportiva</h3>
+        <p>Lentes: 70-200mm f/2.8; Accesorios: Monopod para estabilidad en eventos largos.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Benjamin Chodin Photography. Todos los derechos reservados.
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mensaje enviado! (Simulación)');
+        });
+
+        // Script para cargar imágenes reales (ajusta las URLs cuando subas las imágenes)
+        document.querySelectorAll('.portfolio-item img').forEach(img => {
+            const realSrc = img.getAttribute('data-real-src');
+            if (realSrc) {
+                img.src = realSrc;
+                img.alt = img.alt.replace('https://via.placeholder.com/300x200?text=', '');
+            }
+        });
+    </script>
+
+</body>
+</html>
